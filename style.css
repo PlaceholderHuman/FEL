@@ -1,0 +1,49 @@
+/*the buttons for the title*/
+#major{
+    background-color: beige;
+    text-align: center;
+}
+#title{
+    font-size: 50px;
+    text-align: center;
+}
+button{
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+button:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+}
+
+/* index/about page */
+#chest{
+position: relative;
+text-align: left;
+width: 40%;
+left: 10%;
+}
+h2{
+    left: 50%;
+    position:relative;
+    transform: translate(-50%, 0%);
+}
+
+/* history page */
+.img1{
+    max-width: 30%;
+}
+.img2{
+    max-width: 30%;
+}
+.img3{
+    max-width: 30%;
+}
+
+/* present page */
+/* background page */
+/* future page */
