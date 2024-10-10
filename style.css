@@ -15,6 +15,7 @@ button{
     height: 30px;
     font-size: 20px;
 }
+
 button:hover {
     background-color: #04AA6D; /* Green */
     color: white;
@@ -25,12 +26,14 @@ button:hover {
 position: relative;
 text-align: left;
 width: 40%;
-left: 10%;
+left: 30%;
 }
 h2{
-    left: 50%;
+    left: 92%;
+    /*fix this ;-;*/
     position:relative;
     transform: translate(-50%, 0%);
+
 }
 /*side note the imges below are placed within a div box, so the sizing is different*/
 .Iimg1{
