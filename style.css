@@ -32,15 +32,25 @@ h2{
     position:relative;
     transform: translate(-50%, 0%);
 }
+/*side note the imges below are placed within a div box, so the sizing is different*/
+.Iimg1{
+    max-width: 100%;
+}
+.Iimg2{
+    max-width: 100%;
+}
+.Iimg3{
+    max-width: 100%;
+}
 
 /* history page */
-.img1{
+.Himg1{
     max-width: 30%;
 }
-.img2{
+.Himg2{
     max-width: 30%;
 }
-.img3{
+.Himg3{
     max-width: 30%;
 }
 

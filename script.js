@@ -13,6 +13,3 @@ function concept(){
 function hist(){
     location.href = "history.html"
 }
-function present(){
-    location.href = "present.html"
-}
