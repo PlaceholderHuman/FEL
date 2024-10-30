@@ -7,8 +7,8 @@ function future(){
 function about(){
     location.href = "index.html"
 }
-function concept(){
-    location.href = "concept.html"
+function people(){
+    location.href = "people.html"
 }
 function hist(){
     location.href = "history.html"
