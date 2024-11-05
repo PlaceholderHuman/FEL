@@ -1,4 +1,8 @@
 /*the buttons for the title*/
+/*
+@media all and (orientation:portrait) { … }
+@media all and (orientation:landscape) { … }
+*/
 #major{
     background-color: beige;
     text-align: center;
