@@ -15,7 +15,7 @@ button{
     transition-duration: 0.4s;
     background-color: white;
     color: black;
-    width: 150px;
+    width: 180px;
     height: 30px;
     font-size: 20px;
 }
@@ -33,10 +33,12 @@ width: 40%;
 left: 30%;
 }
 h2{
-    left: 92%;
     /*fix this ;-;*/
     position:relative;
+    width:fit-content;
+    left:50%;
     transform: translate(-50%, 0%);
+    background-color: brown;
 
 }
 /*side note the imges below are placed within a div box, so the sizing is different*/
@@ -52,7 +54,9 @@ h2{
 .Iimg4{
     max-width: 100%;
 }
-
+#table{
+    background-color: blanchedalmond;
+}
 /* history page */
 .Himg1{
     max-width: 30%;
@@ -64,6 +68,44 @@ h2{
     max-width: 30%;
 }
 
-/* present page */
-/* background page */
+
 /* future page */
+#shifted{
+    /*The unordered list under the short to midterm program for FEL*/
+    transform: translate(40px, 0px);
+    /*issue where translates it after fitting the content, search up how to change the order*/
+}
+#Fchest{
+    position: relative;
+    text-align: left;
+    width: 40%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: aqua;
+}
+.row1{
+    background-color: burlywood;
+}
+.two{
+    position: absolute;
+    left:70%;
+    transform: translate(-50%, 0%);
+}
+.three{
+    position: absolute;
+    transform: translate(-50%,0);
+    right: 0%;
+    /* another issue where the transform is applied after moving it to the right*/
+    background-color: cadetblue;
+}
+
+
+/*People Page*/
+#Pchest{
+    position: relative;
+    text-align: left;
+    width: 40%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: aqua;
+}
