@@ -33,7 +33,6 @@ width: 40%;
 left: 30%;
 }
 h2{
-    /*fix this ;-;*/
     position:relative;
     width:fit-content;
     left:50%;
@@ -57,23 +56,67 @@ h2{
 #table{
     background-color: blanchedalmond;
 }
+.row1{
+    background-color: burlywood;
+}
+.one{
+    background-color: red;
+}
+.two{
+    position: absolute;
+    /*possible resizing issue using absolute position*/
+    left:60%;
+    transform: translate(-50%);
+    /*font-size: 1.3vw;*/
+}
+.threefirst{
+    position: absolute;
+    right: 1%;
+    /* another issue where the transform is applied after moving it to the right*/
+    /*use more div boxes*/
+    background-color: cadetblue;
+}
+.three{
+    position: absolute;
+    transform: translate(-50%);
+    right:211928372%;
+    /*hahahahaha*/
+    /* use js to on resize and onload to add half of threefirsts to a transform of this element*/
+    background-color: cadetblue;
+}
+
+
+
+
+
 /* history page */
-.Himg1{
-    max-width: 30%;
+.Himg4{
+   width: 40%;
+   position: relative;
+   left:50%;
+   transform: translate(-50%);
 }
-.Himg2{
-    max-width: 30%;
-}
-.Himg3{
-    max-width: 30%;
+.Htxt4{
+    background-color: blueviolet;
+    width:fit-content;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+ }
+#minorHistory{
+position: relative;
+text-align: left;
+width: 40%;
+left: 30%;
 }
 
 
 /* future page */
 #shifted{
     /*The unordered list under the short to midterm program for FEL*/
-    transform: translate(40px, 0px);
-    /*issue where translates it after fitting the content, search up how to change the order*/
+    position: relative;
+    left:5%;
+    width: 95%;
 }
 #Fchest{
     position: relative;
@@ -82,21 +125,6 @@ h2{
     left: 50%;
     transform: translate(-50%, 0%);
     background-color: aqua;
-}
-.row1{
-    background-color: burlywood;
-}
-.two{
-    position: absolute;
-    left:70%;
-    transform: translate(-50%, 0%);
-}
-.three{
-    position: absolute;
-    transform: translate(-50%,0);
-    right: 0%;
-    /* another issue where the transform is applied after moving it to the right*/
-    background-color: cadetblue;
 }
 
 

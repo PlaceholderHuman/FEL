@@ -8,7 +8,8 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body onload="remap()" onresize="remap()">
+  <!--functions for the table repositioning-->
   <script src="script.js"></script>
   <h1 id = "title">UHM's Free-Electron Laser (FEL)</h1>
   <div id = "major">
@@ -41,13 +42,13 @@
       <div class = "row1">
         <span class = "one">Symbols and parameters</span>
         <span class = "two">Design</span>
-        <span class = "three">Experiment</span>
+        <span class = "threefirst">Experiment</span>
       </div>
       <hr>
       <div class = "row2">
-        <span>Bleh</span>
-        <span>3</span>
-        <span>5</span>
+        <span class = "one">Bleh</span>
+        <span class = "two">3</span>
+        <span class = "three">5</span>
       </div>
     </div>
     <img class = "Iimg4" src = "Images/FELICIA_Data.png">
