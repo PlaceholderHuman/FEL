@@ -16,9 +16,14 @@ function hist(){
 
 function remap(){
     var setter = document.getElementsByClassName("threefirst")[0];
-    var follower = document.getElementsByClassName("three")[0];
+    var number = document.getElementsByClassName("three").length;
     var setterpos = setter.getBoundingClientRect();
-    follower.style.right =((setter.offsetWidth - follower.offsetWidth)/2 + "px");
-    console.log(setter.offsetWidth, follower.offsetWidth, (setter.offsetWidth - follower.offsetWidth)/2 + "px")
-    console.log(setterpos.left, follower.style.left,  follower.getBoundingClientRect().left)
+    for (let i = 0; i < number; i++) {
+        console.log(i)
+        var follower = document.getElementsByClassName("three")[i];
+        console.log(setterpos.right)
+        follower.style.right = 10 +(setter.offsetWidth - follower.offsetWidth)/2 + "px";
+        //10 from initial css of threefirst
+    }
+    //This is assuming that the follower element is smaller than the setter element, bug if not this condition 😹😹😹😹
 }

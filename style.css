@@ -71,14 +71,13 @@ h2{
 }
 .threefirst{
     position: absolute;
-    right: 1%;
+    right: 10px;
     /* another issue where the transform is applied after moving it to the right*/
     /*use more div boxes*/
     background-color: cadetblue;
 }
 .three{
     position: absolute;
-    transform: translate(-50%);
     right:211928372%;
     /*hahahahaha*/
     /* use js to on resize and onload to add half of threefirsts to a transform of this element*/
@@ -136,4 +135,10 @@ left: 30%;
     left: 50%;
     transform: translate(-50%, 0%);
     background-color: aqua;
+}
+#final{
+    position: relative;
+    width: fit-content;
+    transform: translate(-50%);
+    left:50%;
 }
