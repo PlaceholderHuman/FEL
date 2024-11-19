@@ -17,7 +17,7 @@ button{
     width: 180px;
     height: 30px;
     font-size: 20px;
-    appearance: none;
+    -webkit-appearance: none;
 }
 
 button:hover {
@@ -72,6 +72,7 @@ h2{
     text-wrap: pretty;
     max-width: 40%;
     display: inline-block;
+    text-align: left;
 }
 .two{
     position: absolute;
