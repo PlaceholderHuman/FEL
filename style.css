@@ -25,11 +25,20 @@ button:hover {
 }
 
 /* index/about page */
-#chest{
-position: relative;
-text-align: justify;
-width: 45%;
-left: 27.5%;
+@media all and (orientation:landscape){
+    #chest{
+        position: relative;
+        text-align: justify;
+        width: 45%;
+        left: 27.5%;
+        }
+}
+@media all and (orientation:portrait){
+    #chest{
+        position: relative;
+        text-align: justify;
+        width: 100%;
+        }
 }
 h2{
     position:relative;
@@ -94,11 +103,20 @@ h2{
     left:50%;
     transform: translate(-50%);
  }
-#minorHistory{
-position: relative;
-text-align: justify;
-width: 45%;
-left: 27.5%;
+@media all and (orientation:landscape){
+    #minorHistory{
+        position: relative;
+        text-align: justify;
+        width: 45%;
+        left: 27.5%;
+        }
+}
+@media all and (orientation:portrait){
+    #minorHistory{
+        position: relative;
+        text-align: justify;
+        width: 100%;
+        }
 }
 
 
@@ -109,30 +127,63 @@ left: 27.5%;
     left:5%;
     width: 95%;
 }
-#Fchest{
-    position: relative;
-    text-align: left;
-    width: 40%;
-    left: 50%;
-    transform: translate(-50%, 0%);
+@media all and (orientation:portrait){
+    #Fchest{
+        position: relative;
+        text-align: left;
+        width: 100%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
 }
-
+@media all and (orientation:landscape){
+    #Fchest{
+        position: relative;
+        text-align: left;
+        width: 40%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+}
 
 /*People Page*/
-#Pchest{
-    position: relative;
-    text-align: left;
-    width:40%;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    height:fit-content
+@media all and (orientation:landscape){
+    #Pchest{
+        position: relative;
+        text-align: left;
+        width:40%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        height:fit-content;
+    }
 }
-#final{
-    position: absolute;
-    width: fit-content;
-    transform: translate(-50%);
-    top: 600px;
-    left: 50%
+@media all and (orientation:portrait){
+    #Pchest{
+        position: relative;
+        text-align: left;
+        width:100%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        height:fit-content;
+    }
+}
+@media all and (orientation:landscape){
+    #final{
+        position: absolute;
+        width: fit-content;
+        transform: translate(-50%);
+        top: 600px;
+        left: 50%
+    }
+}
+@media all and (orientation:portrait){
+    #final{
+        position: absolute;
+        width: fit-content;
+        transform: translate(-50%);
+        top: 700px;
+        left: 50%
+    }
 }
 .spnR{
     position:absolute;
@@ -142,11 +193,24 @@ left: 27.5%;
     position:absolute;
     left:50%;
     transform: translate(-100%);
+    width: max-content;
+    /*the list element shifts as the screen shifts from landscape to portrait*/
 }
-.finalfinal{
-    position: absolute;
-    width: fit-content;
-    transform: translate(-50%);
-    top: 650px;
-    left: 50%
+@media all and (orientation:landscape){
+    .finalfinal{
+        position: absolute;
+        width: fit-content;
+        transform: translate(-50%);
+        top: 650px;
+        left: 50%
+    }
+}
+@media all and (orientation:portrait){
+    .finalfinal{
+        position: absolute;
+        width: fit-content;
+        transform: translate(-50%);
+        top: 750px;
+        left: 50%
+    }
 }
