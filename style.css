@@ -66,6 +66,12 @@ h2{
 .row1{
     background-color:blanchedalmond;
 }
+.one{
+    position: relative;
+    text-wrap: pretty;
+    max-width: 40%;
+    display: inline-block;
+}
 .two{
     position: absolute;
     /*possible resizing issue using absolute position*/
