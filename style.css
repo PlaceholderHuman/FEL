@@ -4,7 +4,6 @@
 @media all and (orientation:landscape) { … }
 */
 #major{
-    background-color: beige;
     text-align: center;
 }
 #title{
@@ -28,16 +27,15 @@ button:hover {
 /* index/about page */
 #chest{
 position: relative;
-text-align: left;
-width: 40%;
-left: 30%;
+text-align: justify;
+width: 45%;
+left: 27.5%;
 }
 h2{
     position:relative;
     width:fit-content;
     left:50%;
     transform: translate(-50%, 0%);
-    background-color: brown;
 
 }
 /*side note the imges below are placed within a div box, so the sizing is different*/
@@ -54,13 +52,10 @@ h2{
     max-width: 100%;
 }
 #table{
-    background-color: blanchedalmond;
+    background-color: cornsilk;
 }
 .row1{
-    background-color: burlywood;
-}
-.one{
-    background-color: red;
+    background-color:blanchedalmond;
 }
 .two{
     position: absolute;
@@ -74,14 +69,12 @@ h2{
     right: 10px;
     /* another issue where the transform is applied after moving it to the right*/
     /*use more div boxes*/
-    background-color: cadetblue;
 }
 .three{
     position: absolute;
     right:211928372%;
     /*hahahahaha*/
     /* use js to on resize and onload to add half of threefirsts to a transform of this element*/
-    background-color: cadetblue;
 }
 
 
@@ -96,7 +89,6 @@ h2{
    transform: translate(-50%);
 }
 .Htxt4{
-    background-color: blueviolet;
     width:fit-content;
     position: relative;
     left:50%;
@@ -104,9 +96,9 @@ h2{
  }
 #minorHistory{
 position: relative;
-text-align: left;
-width: 40%;
-left: 30%;
+text-align: justify;
+width: 45%;
+left: 27.5%;
 }
 
 
@@ -123,7 +115,6 @@ left: 30%;
     width: 40%;
     left: 50%;
     transform: translate(-50%, 0%);
-    background-color: aqua;
 }
 
 
@@ -131,14 +122,31 @@ left: 30%;
 #Pchest{
     position: relative;
     text-align: left;
-    width: 40%;
+    width:40%;
     left: 50%;
     transform: translate(-50%, 0%);
-    background-color: aqua;
+    height:fit-content
 }
 #final{
-    position: relative;
+    position: absolute;
     width: fit-content;
     transform: translate(-50%);
+    top: 600px;
+    left: 50%
+}
+.spnR{
+    position:absolute;
+    left: 50%;
+}
+.spnL{
+    position:absolute;
     left:50%;
+    transform: translate(-100%);
+}
+.finalfinal{
+    position: absolute;
+    width: fit-content;
+    transform: translate(-50%);
+    top: 650px;
+    left: 50%
 }
