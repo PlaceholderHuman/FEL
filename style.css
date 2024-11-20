@@ -13,7 +13,7 @@
 button{
     transition-duration: 0.4s;
     background-color: white;
-    color: black;
+    color: blue;
     width: 180px;
     height: 30px;
     font-size: 20px;
@@ -23,6 +23,7 @@ button{
 button:hover {
     background-color: #04AA6D; /* Green */
     color: white;
+    -webkit-appearance: none;
 }
 
 /* index/about page */
