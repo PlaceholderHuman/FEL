@@ -3,6 +3,9 @@
 @media all and (orientation:portrait) { … }
 @media all and (orientation:landscape) { … }
 */
+.generalimg{
+    max-width: 100%;
+}
 #major{
     text-align: center;
 }
@@ -53,18 +56,6 @@ h2{
 
 }
 /*side note the imges below are placed within a div box, so the sizing is different*/
-.Iimg1{
-    max-width: 100%;
-}
-.Iimg2{
-    max-width: 100%;
-}
-.Iimg3{
-    max-width: 100%;
-}
-.Iimg4{
-    max-width: 100%;
-}
 #table{
     background-color: cornsilk;
 }
@@ -163,11 +154,12 @@ h2{
     #Pchest{
         position: relative;
         text-align: left;
-        width:40%;
+        width:fit-content;
         left: 50%;
         transform: translate(-50%, 0%);
         height:fit-content;
     }
+    /*set image max width to same as the width of div box*/
 }
 @media all and (orientation:portrait){
     #Pchest{
@@ -184,8 +176,8 @@ h2{
         position: absolute;
         width: fit-content;
         transform: translate(-50%);
-        top: 600px;
-        left: 50%
+        top: 850px;
+        left: 50%;
     }
 }
 @media all and (orientation:portrait){
@@ -193,13 +185,14 @@ h2{
         position: absolute;
         width: fit-content;
         transform: translate(-50%);
-        top: 700px;
-        left: 50%
+        top: 950px;
+        left: 50%;
     }
 }
 .spnR{
     position:absolute;
     left: 50%;
+    width: max-content;
 }
 .spnL{
     position:absolute;
@@ -208,12 +201,20 @@ h2{
     width: max-content;
     /*the list element shifts as the screen shifts from landscape to portrait*/
 }
+.Pimg1{
+    position: relative;
+    max-width: 440px;
+    /*estimated*/
+    transform: translate(-50%);
+    left: 50%;
+    top: 380px
+}
 @media all and (orientation:landscape){
     .finalfinal{
         position: absolute;
         width: fit-content;
         transform: translate(-50%);
-        top: 650px;
+        top: 900px;
         left: 50%
     }
 }
@@ -222,7 +223,7 @@ h2{
         position: absolute;
         width: fit-content;
         transform: translate(-50%);
-        top: 750px;
+        top: 1000px;
         left: 50%
     }
 }
