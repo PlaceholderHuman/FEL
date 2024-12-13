@@ -176,7 +176,7 @@ h2{
         position: absolute;
         width: fit-content;
         transform: translate(-50%);
-        top: 850px;
+        top: 650px;
         left: 50%;
     }
 }
@@ -185,7 +185,7 @@ h2{
         position: absolute;
         width: fit-content;
         transform: translate(-50%);
-        top: 950px;
+        top: 700px;
         left: 50%;
     }
 }
@@ -214,7 +214,7 @@ h2{
         position: absolute;
         width: fit-content;
         transform: translate(-50%);
-        top: 900px;
+        top: 700px;
         left: 50%
     }
 }
@@ -223,7 +223,7 @@ h2{
         position: absolute;
         width: fit-content;
         transform: translate(-50%);
-        top: 1000px;
+        top: 750px;
         left: 50%
     }
 }
