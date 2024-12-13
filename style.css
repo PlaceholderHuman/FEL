@@ -150,11 +150,37 @@ h2{
 }
 
 /*People Page*/
+.profile{
+    max-width: 100px;
+}
+.desc{
+    /*description on a contact card*/
+    position: relative;
+    width:180px;
+    /*THERE IS A SET WIDTH SIZE SO LONG TEXT WILL HAVE TO INCREASE OVERALL WIDTH*/
+    top:50%;
+    transform:translate(0%, -50%);
+    float: right;
+}
+.image{
+    /*the image on a contact card*/
+    top: 50%;
+    position: relative;
+    width: fit-content;
+    float: left;
+    transform: translate(0%, -50%);
+}
+.total{
+    /*each individual contact card*/
+    width: 300px;
+    height:150px;
+    margin:10px;
+}
 @media all and (orientation:landscape){
     #Pchest{
         position: relative;
         text-align: left;
-        width:fit-content;
+        width:680px;
         left: 50%;
         transform: translate(-50%, 0%);
         height:fit-content;
@@ -176,7 +202,7 @@ h2{
         position: absolute;
         width: fit-content;
         transform: translate(-50%);
-        top: 650px;
+        top: 850px;
         left: 50%;
     }
 }
@@ -185,36 +211,52 @@ h2{
         position: absolute;
         width: fit-content;
         transform: translate(-50%);
-        top: 700px;
+        top: 1600px;
         left: 50%;
     }
 }
-.spnR{
-    position:absolute;
-    left: 50%;
-    width: max-content;
+
+
+@media all and (orientation:landscape){
+    .spnR{
+        position:absolute;
+        right:0%;
+        width: max-content;
+    }
 }
-.spnL{
-    position:absolute;
-    left:50%;
-    transform: translate(-100%);
-    width: max-content;
-    /*the list element shifts as the screen shifts from landscape to portrait*/
+@media all and (orientation:portrait){
+    .spnR{
+        position:absolute;
+        top:697px;
+        /*estimation by background*/
+        left:50%;
+        transform: translate(-50%);
+        width: max-content;
+    }
 }
-.Pimg1{
-    position: relative;
-    max-width: 440px;
-    /*estimated*/
-    transform: translate(-50%);
-    left: 50%;
-    top: 380px
+@media all and (orientation:landscape){
+    .spnL{
+        position:absolute;
+        left:0%;
+        width: max-content;
+        /*the list element shifts as the screen shifts from landscape to portrait*/
+    }
+}
+@media all and (orientation:portrait){
+    .spnL{
+        position:absolute;
+        left:50%;
+        width: max-content;
+        transform: translate(-50%);
+        /*the list element shifts as the screen shifts from landscape to portrait*/
+    }
 }
 @media all and (orientation:landscape){
     .finalfinal{
         position: absolute;
         width: fit-content;
         transform: translate(-50%);
-        top: 700px;
+        top: 900px;
         left: 50%
     }
 }
@@ -223,7 +265,7 @@ h2{
         position: absolute;
         width: fit-content;
         transform: translate(-50%);
-        top: 750px;
+        top: 1650px;
         left: 50%
     }
 }
